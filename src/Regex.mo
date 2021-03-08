@@ -1,3 +1,7 @@
+/// Regexes in Motoko
+///
+/// Based on http://matt.might.net/articles/implementation-of-regular-expression-matching-in-scheme-with-derivatives/
+
 module {
 
     public type Regex = { 
