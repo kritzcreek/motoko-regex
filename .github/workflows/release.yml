@@ -17,7 +17,7 @@ jobs:
        wget --output-document /home/runner/bin/vessel https://github.com/dfinity/vessel/releases/download/v0.6.0/vessel-linux64
        chmod +x /home/runner/bin/vessel
     - name: "docs"
-      run: $(vessel bin)/mo-doc
+      run: make docs
     - name: Upload docs
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
