@@ -1,4 +1,4 @@
 {
   dependencies = [] : List Text,
-  compiler = Some "0.5.7"
+  compiler = Some "0.5.10"
 }
