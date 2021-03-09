@@ -2,7 +2,7 @@
 
 Simple regex matching for Motoko Text.
 
-This project in it's very early stages and primarily serves as an example
+This project is in its very early stages and primarily serves as an example
 of how to structure a Motoko library.
 
 ## Example
